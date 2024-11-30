@@ -94,12 +94,15 @@
         }
 
         #home {
-            background-color: #fff;
+            background-color:#E1F5FE;
+            height: 240px;
+
         }
 
         #about, #services, #contact {
-            background-color: transparent;
+            background-color: #ECEFF1;
             margin-top: 2px;
+            height: 200px;
             border: 1px solid #f5f5f5;
         }
 
@@ -107,6 +110,8 @@
             list-style: disc inside;
             text-align: left;
             display: inline-block;
+            font-size: 24px;
+
         }
 
         /* Footer Styles */

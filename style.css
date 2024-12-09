@@ -20,6 +20,10 @@
             padding: 10px 20px;
             background-color: #0000ff;
             color: #fff;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
         }
 
         .logo img {

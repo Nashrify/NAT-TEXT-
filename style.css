@@ -14,17 +14,19 @@
 
         /* Header Styles */
         header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px 20px;
-            background-color: #0000ff;
-            color: #fff;
-            top: 0;
-            left: 0;
-            right: 0;
-            z-index: 1000;
-        }
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #0000ff;
+    color: #fff;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
 
         .logo img {
             height: 50px;
